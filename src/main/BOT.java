@@ -13,7 +13,7 @@ public class BOT {
 
 	
 	public static void main(String[] args) throws LoginException {
-		JDABuilder jda = JDABuilder.createDefault("OTc3MTk0MDYxNjUzOTk5NjI2.GRAwAG.hU809NS59rm9NPnidVGdk11ipeO01vUn5U1FSQ");
+		JDABuilder jda = JDABuilder.createDefault("OTc3MTk0MDYxNjUzOTk5NjI2.G4VMeT.fK_LbkbI0xEih1aiEnn3PCQfGOGuHHKny2fRcQ");
 		jda.setActivity(Activity.playing(" with Lori's mom"));
 		jda.setStatus(OnlineStatus.ONLINE);
 		jda.addEventListeners(new Commands());
